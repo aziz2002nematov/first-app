@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <link rel="icon" href="https://st-1.akipress.org/st_all/bilim/9/1519540999.2.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <script src="App.js"></script>
+    <script src="/src/index.js"></script>
+    <title>Ala too society</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <body>
+    
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand"  href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmt_4GQm0agkXENbCmI58p8pyc68_F1fzJUcLC8IgGnYY2NrhiubvJlo230Zc-PZx5dmc&usqp=CAU" 
+            style="height: 36px; width: 57px; margin-top: -5px;">
+            </a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#h">Home</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Social <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#ed">Alatoo.edu.kg</a></li>
+              <li><a href="#sch">Alatoo_SCH</a></li>
+            
+            </ul>
+          </li>
+          <li><a href="#al">Alatoshniki</a></li>
+          <li><a href="#st">Alatoo_stories</a></li>
+          <li><a href="#sc">Alatoo_SC</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#Sign"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+         
+        </ul>
+      </div>
+    </nav>
+    
+    <div id="h" class="w3-content w3-display-container">
+      <img class="mySlides" src="./4.jpg" style="width:100%; height: 450px;">
+      <img class="mySlides" src="./1.jpg" style="width:100%; height: 450px;">
+      <img class="mySlides" src="./2.jpg" style="width:100%; height: 450px;">
+      <img class="mySlides" src="./3.jpg" style="width:100%; height: 450px;" >
+      <img class="mySlides" src="./5.jpg" style="width:100%; height: 450px;" >
+    
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex-1].style.display = "block";  
+      }
+      </script>
+    <br>
+    
+  <div class="polaroid">
+      <img src="./1.jpg" alt="5 Terre" style="width:100%">
+      <div class="container">
+          <p id="ed" class="fa fa-instagram">Alatoo.edu.kg
+          </p>
+          <p>Университет | МУА • AIU<br>
+            <span style="color:gray;">Вузы</span><br>
+            📌Выпускаем специалистов говорящих на 5 языках!<br>
+            📌25 лет в образовании!<br>
+            📌Более 3000 счастливых выпускников!<br>
+            💻 www.alatoo.edu.kg<br>
+            #alatoo #aiu<br>
+            <a href="https://www.instagram.com/alatoo.edu.kg/" style="color:firebrick">Link to visit</a></p><br>
+      </div>
+  </div>
+
+  <div class="polaroid">
+      <img src="./5.jpg" alt="Norther Lights" style="width:100%">
+      <div class="container">
+          <p id="st" class="fa fa-instagram">Alatoo_stories</p>
+          <p>Student Council of AIU<br>
+            <span style="color:gray;">Вузы</span><br>
+            🎓 Студенческий Совет Международного Университета Ала-Тоо<br>
+            📚 Делаем жизнь студентов ярче и интереснее<br>
+            <a href="https://www.instagram.com/Alatoo_stories/" style="color:firebrick">Link to visit</a></p>
+      </div>
+  </div>
+  <div class="polaroid">
+      <img src="./4.jpg" alt="5 Terre" style="width:100%">
+      <div class="container">
+          <p id="al"  class="fa fa-instagram">Alatoshniki
+          </p>
+          <p>▪️Жизнь внутри лучшего университета Кыргызстана🇰🇬<br>
+            ▪️Клуб для каждого студента Ала-Тоо, добро пожаловать!<br>
+            📌 реклама/сотрудничество в директ📌<br>
+            <a href="https://www.instagram.com/alatoshniki/" style="color:firebrick" style="font-family:Verdana, Geneva, Tahoma, sans-serif;">Link to visit</a></p>
+      </div>
+  </div>
+
+  <div class="polaroid">
+      <img src="./3.jpg" alt="Norther Lights" style="width:100%">
+      <div class="container">
+          <p id="sch" class="fa fa-instagram">Alatoo_SCH</p>
+          <p>Student Council of AIU<br>
+            <span style="color:gray;">Вузы</span><br>
+            🎓 Студенческий Совет Международного Университета Ала-Тоо<br>
+            📚 Делаем жизнь студентов ярче и интереснее<br>
+            <a href="https://www.instagram.com/alatoo_sch/" style="color:firebrick">Link to visit</a></p>
+      </div>
+  </div>
+  <div class="polaroid">
+      <img src="./2.jpg" alt="5 Terre" style="width:100%">
+      <div class="container">
+          <p id="sc" class="fa fa-instagram">Alatoo_SC</p>
+          <p>SCH department<br>
+            • Sport 🏆<br>
+            • Culture 📸<br>
+            • Health 👨‍⚕️<br>
+            <a href="https://www.instagram.com/alatoo_sc/" style="color:firebrick">Link to visit</a></p>
+      </div>
+  </div>
+
+   
+    <footer>
+      <h1> 
+        <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-vk"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-telegram"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#" class="fa fa-twitter"></a><br><hr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &#169;Copyright Alatoo society.  All Rights Reserved.<br>
+        Powered by Nematov.<br>
+      </h1>
+      <div id="Sign" class="a">
+        <h2>Registration</h2>
+        <form action="">
+            <p1>Password did not match !!!</p1>
+            <input type="text" name="username" id="username" placeholder="username">
+            <input type="email" name="email" id="email" placeholder="email">
+            <input type="password" name="pass" id="pass" placeholder="password">
+            <input type="password" name="confirm-pass" id="confirm-pass" placeholder=" confirm password">
+
+            <div class="btns">
+                <button type="submit">Register</button>
+            </div>
+
+        </form>
+    </div>
+    <script>const pass = document.querySelector('#pass')
+      const confirm_pass = document.querySelector('#confirm-pass')
+      const msg = document.querySelector('p1')
+      const btn = document.querySelector('button')
+      btn.addEventListener('click', (e) => {
+          if (pass.value != confirm_pass.value) {
+              e.preventDefault();
+              msg.style.display = "block"
+          }else{
+              alert('user registered sucessfully')
+          }
+      
+      })</script>
+    </footer>
+  
+    
+
+
+
+    </body>
+    </html>
