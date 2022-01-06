@@ -1,2 +1,2 @@
-You can see my project from master not main
+You can see my project from master branch not main branch
 
