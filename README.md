@@ -1,24 +1,5 @@
+
 with the help of this site you can find out about instagram accounts related to Ala-Too University
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
